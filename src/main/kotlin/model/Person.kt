@@ -8,6 +8,7 @@ abstract class Person(
 ) {
 
     fun getFullName(): String {
+        println("Retornando el nombre completo")
         return "$names $firstLastName $secondLastName"
     }
 
